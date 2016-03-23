@@ -4,7 +4,7 @@ namespace App;
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 
-class Chat implements MessageComponentInterface {
+class SocketServer implements MessageComponentInterface {
 	protected $clients;
 
 	public function __construct ()
